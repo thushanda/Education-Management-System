@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="857ef7fd-f52f-49e7-83ea-519fdb286da5" name="Student" url="http://localhost">
+        <fileTransfer mountedRoot="C:\Users\thush\AppData\Local\SceneBuilder" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>

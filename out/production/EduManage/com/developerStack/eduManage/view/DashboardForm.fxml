@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="contextDashboard" prefHeight="443.0" prefWidth="752.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.developerStack.eduManage.controller.DashboardFormController">
+   <children>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="33.0" prefWidth="161.0" text="Dashboard" textFill="#0f2bdd">
+         <font>
+            <Font name="Arial Bold" size="28.0" />
+         </font>
+      </Label>
+      <Separator layoutX="16.0" layoutY="47.0" prefHeight="8.0" prefWidth="721.0" />
+      <Label fx:id="lblDate" layoutX="341.0" layoutY="22.0" text="2024-01-16" textFill="#d31212">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblTime" layoutX="431.0" layoutY="22.0" text="12:59:10 AM" textFill="#d30f0f">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Separator layoutX="426.0" layoutY="23.0" orientation="VERTICAL" prefHeight="21.0" prefWidth="4.0" />
+      <Button layoutX="31.0" layoutY="76.0" mnemonicParsing="false" onAction="#studentFormOnAction" prefHeight="101.0" prefWidth="161.0" style="-fx-background-color: #0D99FF;" text="Student" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="31.0" layoutY="204.0" mnemonicParsing="false" onAction="#registrationOnAction" prefHeight="101.0" prefWidth="694.0" style="-fx-background-color: #1B0A2A;" text="Registration" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="562.0" layoutY="76.0" mnemonicParsing="false" onAction="#teacherOnAction" prefHeight="101.0" prefWidth="161.0" style="-fx-background-color: #00DF3B;" text="Teachers" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="207.0" layoutY="76.0" mnemonicParsing="false" onAction="#programOnAction" prefHeight="101.0" prefWidth="161.0" style="-fx-background-color: #212121;" text="Programs" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="385.0" layoutY="76.0" mnemonicParsing="false" onAction="#intakeOnAction" prefHeight="101.0" prefWidth="161.0" style="-fx-background-color: #B55E04;" text="Intakes" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="16.0" layoutY="398.0" text="Developed by : Shan Developer Team">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="621.0" layoutY="398.0" prefHeight="21.0" prefWidth="102.0" text="Version : 1.0.0">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="654.0" layoutY="11.0" mnemonicParsing="false" onAction="#logoutOnAction" prefHeight="33.0" prefWidth="83.0" style="-fx-background-color: #212121;" text="Logout" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
